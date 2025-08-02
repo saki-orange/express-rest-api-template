@@ -1,4 +1,4 @@
-# Express TypeScript API Template
+# Express TypeScript REST API Template
 
 モダンな Express.js アプリケーションのためのテンプレートプロジェクト。TypeScript、Prisma ORM、PostgreSQL、Passport.js による認証機能を含んでいます。
 
@@ -39,7 +39,7 @@
 ## 📁 プロジェクト構成
 
 ```
-express-template/
+express-rest-api-template/
 ├── prisma/                  # Prisma設定とマイグレーション
 │   ├── schema.prisma       # データベーススキーマ定義
 │   └── migrations/         # データベースマイグレーション

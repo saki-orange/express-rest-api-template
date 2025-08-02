@@ -88,7 +88,7 @@ express-template/
 
 ```bash
 git clone <repository-url>
-cd express-template
+cd express-rest-api-template
 ```
 
 ### 2. 依存関係のインストール
@@ -103,7 +103,7 @@ pnpm install
 
 ```env
 # データベース接続
-DATABASE_URL="postgresql://your_username:your_password@localhost:5432/database_name"
+DATABASE_URL="postgresql://your_username:your_password@localhost:5432/your_database_name"
 
 # セッション設定
 SESSION_SECRET="your-session-secret-here"
@@ -336,7 +336,6 @@ pnpm run test:auth
 ```env
 NODE_ENV=test
 TEST_DATABASE_URL=postgresql://test:test@localhost:5432/test_db
-SESSION_SECRET=test-session-secret
 ```
 
 ### テストデータベースのセットアップ
